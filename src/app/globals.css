@@ -1,0 +1,279 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------ */
+/* Design tokens                                                       */
+/*                                                                     */
+/* The palette is deliberately narrow: warm ivory, near-black ink and  */
+/* a single brass accent. Restraint is what makes a premium brand look */
+/* premium — a second accent colour would cheapen it.                  */
+/* ------------------------------------------------------------------ */
+
+@theme {
+  --color-ivory: #f8f5ef;
+  --color-ivory-dim: #efeae0;
+  --color-ivory-deep: #e4ddcf;
+
+  --color-ink: #111110;
+  --color-ink-soft: #1c1b19;
+  --color-ink-muted: #2a2825;
+
+  --color-brass: #a88a4a;
+  --color-brass-light: #c9a961;
+  --color-brass-pale: #e2d3ab;
+
+  --color-stone: #6f6a60;
+  --color-stone-light: #8e887c;
+
+  --font-display: var(--font-display-family), 'Cormorant Garamond', Georgia, serif;
+  --font-sans: var(--font-body-family), 'Inter', system-ui, -apple-system, sans-serif;
+
+  --spacing-section: 7.5rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ------------------------------------------------------------------ */
+/* Semantic surface variables, redefined for dark mode                 */
+/* ------------------------------------------------------------------ */
+
+:root {
+  --surface: var(--color-ivory);
+  --surface-raised: #fffdf9;
+  --surface-sunken: var(--color-ivory-dim);
+  --surface-inverse: var(--color-ink);
+
+  --text-primary: var(--color-ink);
+  --text-secondary: #4a463f;
+  --text-muted: var(--color-stone);
+  --text-inverse: var(--color-ivory);
+
+  --line: rgb(17 17 16 / 0.12);
+  --line-strong: rgb(17 17 16 / 0.22);
+
+  --accent: var(--color-brass);
+  --accent-contrast: #ffffff;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --surface: #0d0d0c;
+    --surface-raised: #161513;
+    --surface-sunken: #090908;
+    --surface-inverse: var(--color-ivory);
+
+    --text-primary: #f2efe8;
+    --text-secondary: #b8b3a8;
+    --text-muted: var(--color-stone-light);
+    --text-inverse: var(--color-ink);
+
+    --line: rgb(242 239 232 / 0.14);
+    --line-strong: rgb(242 239 232 / 0.26);
+
+    --accent: var(--color-brass-light);
+    --accent-contrast: #111110;
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --surface: #0d0d0c;
+  --surface-raised: #161513;
+  --surface-sunken: #090908;
+  --surface-inverse: var(--color-ivory);
+
+  --text-primary: #f2efe8;
+  --text-secondary: #b8b3a8;
+  --text-muted: var(--color-stone-light);
+  --text-inverse: var(--color-ink);
+
+  --line: rgb(242 239 232 / 0.14);
+  --line-strong: rgb(242 239 232 / 0.26);
+
+  --accent: var(--color-brass-light);
+  --accent-contrast: #111110;
+
+  color-scheme: dark;
+}
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: var(--surface);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-contrast);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Arabic needs more vertical room: the script has taller ascenders and
+   deeper descenders than Latin at the same nominal size. */
+[dir='rtl'] body {
+  line-height: 1.95;
+}
+
+[dir='rtl'] .font-display {
+  letter-spacing: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* Utilities                                                           */
+/* ------------------------------------------------------------------ */
+
+@utility container-x {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  max-width: 82rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2.5rem;
+  }
+
+  @media (width >= 80rem) {
+    padding-inline: 4rem;
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+  font-weight: 300;
+  letter-spacing: -0.015em;
+  line-height: 1.08;
+}
+
+@utility eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Arabic has no case, so uppercase + wide tracking reads as broken text. */
+[dir='rtl'] .eyebrow {
+  text-transform: none;
+  letter-spacing: 0.04em;
+  font-size: 0.8125rem;
+}
+
+@utility hairline {
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+@utility surface-inverse {
+  background-color: var(--surface-inverse);
+  color: var(--text-inverse);
+}
+
+/* ------------------------------------------------------------------ */
+/* Scroll-reveal — progressive enhancement, content is visible without */
+/* JavaScript and for anyone who prefers reduced motion.               */
+/* ------------------------------------------------------------------ */
+
+.reveal {
+  opacity: 1;
+}
+
+.js .reveal {
+  opacity: 0;
+  transform: translateY(1.75rem);
+  transition:
+    opacity 0.9s var(--ease-out-expo),
+    transform 0.9s var(--ease-out-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.js .reveal[data-revealed='true'] {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Marquee                                                             */
+/* ------------------------------------------------------------------ */
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 42s linear infinite;
+}
+
+[dir='rtl'] .marquee-track {
+  animation-direction: reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Decorative background grain — pure CSS, costs no network request    */
+/* ------------------------------------------------------------------ */
+
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: radial-gradient(circle at 1px 1px, var(--line-strong) 1px, transparent 0);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 20%, transparent 75%);
+}
