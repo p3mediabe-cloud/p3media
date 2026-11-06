@@ -21,20 +21,9 @@
 - [ ] Voorraad van de systemen (5 identieke)
 - [ ] Draagtas bij elk model inbegrepen?
 
-## Prijsopbouw (voorstel, aan te passen)
+## Prijs
 
-| | Eco | Standaard | Premium |
-|---|---|---|---|
-| Verkoop / st. excl. btw | € 79 | € 99 | € 169 |
-| 5 st. | € 395 | € 495 | € 845 |
-| Spoed (forfait) | € 75 | € 75 | € 75 |
-| Excl. btw | € 470 | € 570 | € 920 |
-| Btw 21 % | € 98,70 | € 119,70 | € 193,20 |
-| Incl. btw | € 568,70 | € 689,70 | € 1.113,20 |
-
-Ter referentie: online prijzen voor een standaard roll-up 100 x 200 incl. tas liggen in België/NL
-grofweg tussen € 50 en € 120 excl. btw per stuk, zonder spoed en zonder persoonlijke bestandscontrole.
-Onze meerwaarde = gegarandeerde deadline, gratis controle van 5 vreemde templates, afhaling in Beringen.
+Zie `README.md`: € 317,95 + € 44,00 spoedverzending = € 437,96 incl. btw.
 
 ## Risico's
 

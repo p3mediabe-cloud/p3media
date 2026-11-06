@@ -1,91 +1,52 @@
-# Antwoordmail – spoedofferte 5 roll-ups Smart Vent Systems
+# Antwoordmail aan Patrick – spoedofferte 5 roll-ups
 
-> **Intern, vóór verzenden:**
-> 1. Bedragen tussen `[ ]` controleren tegen de inkoopprijs en spoedtermijn van de drukleverancier.
-> 2. Afhaaladres en IBAN invullen.
-> 3. Bijlagen meesturen: `aanlevertemplate-rollup-100x200.pdf` + `02-aanleverspecificaties.md` (als PDF).
-> 4. Haalbaarheid pas bevestigen als de leverancier productie op **di 10/11** en levering bij ons op **do 12/11** heeft bevestigd.
+> **Intern, vóór verzenden:** IBAN/BIC invullen in `proforma-PF-2026-1106-SVS.pdf` (script in de commit),
+> en bij print.com nagaan dat levering op **dinsdag 10/11** nog kan bij bestelling op **ma 9/11**.
+> Bijlagen: `proforma-PF-2026-1106-SVS.pdf` + `04-bestandscontrole.md` (als PDF of in de mail geplakt).
 
 ---
 
 **Aan:** patrick@smartventsystems.be
-**Onderwerp:** Re: Spoedofferte 5 roll-upbanners 100 x 200 cm – beurs 13 november – haalbaar ✔
+**Onderwerp:** Re: Spoedofferte 5 roll-upbanners 100 x 200 cm – levering dinsdag 10 november ✔
 
 Beste Patrick,
 
-Bedankt voor uw aanvraag. Hieronder vindt u onze bevestiging op elk van uw vragen.
+Bedankt voor uw aanvraag en voor de vijf ontwerpen. Hieronder ons antwoord op uw vragen.
 
-### 1. Haalbaarheid – ja, voor alle vijf banners
+**1. Haalbaarheid: ja, voor alle vijf**
+Met spoedlevering heeft u de vijf roll-ups op **dinsdag 10 november**, dus ruim voor uw beurs van vrijdag 13 november en vóór de feestdag van 11 november. Voorwaarde: de bestanden zijn goedgekeurd en de betaling is binnen op **maandag 9 november, uiterlijk 11u00**.
 
-Rekening houdend met 11 november (Wapenstilstand, geen productie) is de termijn haalbaar, **op voorwaarde dat de drukbestanden ten laatste maandag 9 november om 12u00 goedgekeurd zijn en de betaling dan ontvangen of bevestigd is.**
-
-| Wanneer | Wat |
+**2. Totaalprijs**
+| | excl. btw |
 |---|---|
-| vr 6/11 (vandaag) | Offerte + aanlevertemplate |
-| uiterlijk ma 9/11 – 09u00 | U stuurt de 5 PDF's door |
-| ma 9/11 – vóór 12u00 | Wij controleren de bestanden, u keurt de proefweergaven goed + betaling |
-| di 10/11 | Productie (druk + montage in cassette) |
-| wo 11/11 | Feestdag – buffer |
-| **do 12/11 – vanaf 14u00** | **Klaar voor afhaling** (of levering per koerier op vr 13/11 vóór 12u00) |
+| 5 roll-up banners Basic, 100 x 200 cm, aluminium cassette + gevoerde draagtas, één zijde full colour op 510 g frontlit, 5 verschillende ontwerpen | € 317,95 |
+| Verzending met spoed, levering dinsdag 10/11 in België | € 44,00 |
+| Technische bestandscontrole + omzetten naar het template van onze drukker | inbegrepen |
+| **Totaal excl. btw** | **€ 361,95** |
+| Btw 21 % | € 76,01 |
+| **Totaal incl. btw** | **€ 437,96** |
 
-Komen de bestanden pas maandagnamiddag binnen, dan schuift alles één werkdag op en kunnen we vrijdag 13/11 niet meer garanderen. Hoe sneller u de bestanden doorstuurt (gerust al dit weekend), hoe meer marge we hebben voor eventuele correcties.
+Levering op het adres dat u opgeeft. Afhalen kan ook in Beringen (Wielewaalstraat 25), maar spoedlevering bij u is sneller.
 
-### 2. Totaalprijs – drie modellen
+**3. Hoe bestellen**
+Per mail. Een bestellink is niet nodig. Bevestig deze offerte met een korte mail met de facturatiegegevens van SOPO BV (btw-nummer, adres) en het leveradres, en betaal de pro-formafactuur in bijlage. Na levering krijgt u de definitieve factuur vanuit ons boekhoudpakket.
 
-U vraagt een standaardcassette; ter vergelijking zetten we er een lichter en een zwaarder model naast. Alle prijzen voor **5 complete roll-ups** (systeem + bedrukt doek + draagtas), elk met een eigen ontwerp.
+**4. Uiterste termijnen**
+- Betaling: **maandag 9 november, 11u00** (een betaalbewijs per mail volstaat).
+- Goedgekeurde drukbestanden: **maandag 9 november, 11u00**.
 
-| | Eco | **Standaard** ✔ aanbevolen | Premium |
-|---|---|---|---|
-| Systeem | Lichte aluminium cassette | Aluminium standaardcassette, uitklapvoetjes | Brede, zware cassette, doek later te vervangen |
-| Doek | Polyester 440 g/m² | Anti-krul, grijze rug (geen doorschijn) | Mat blockout, grijze rug |
-| Draagtas | inbegrepen | gewatteerd, inbegrepen | gewatteerd, inbegrepen |
-| 5 roll-ups | € [395,00] | **€ [495,00]** | € [845,00] |
-| Spoedtoeslag (levering < 4 werkdagen) | € [75,00] | € [75,00] | € [75,00] |
-| Bestandscontrole | gratis | gratis | gratis |
-| **Totaal excl. btw** | € [470,00] | **€ [570,00]** | € [920,00] |
-| Btw 21 % | € [98,70] | € [119,70] | € [193,20] |
-| **Totaal incl. btw** | **€ [568,70]** | **€ [689,70]** | **€ [1.113,20]** |
+**5. Aanlevering en bestandscontrole**
+We hebben de vijf PDF's al nagekeken (verslag in bijlage). Kort samengevat:
+- **Formaat:** de bestanden zijn opgemaakt voor het template van Onlineprinters (102 x 217 cm met 15 cm cassettedeel). Wij zetten ze kosteloos om naar het template van onze drukker. Uw tekst en opmaak blijven ongewijzigd.
+- **Kleur:** de bestanden zijn RGB. Wij zetten ze om naar CMYK. Het blauw #168BFF wordt in druk iets minder fel dan op het scherm. Dat is normaal bij frontlit.
+- **Beeldresolutie (aandachtspunt):** het logo (alle banners), de productfoto (banner 4) en de slaapfoto (banner 5) zijn te klein voor scherp drukwerk op 2 meter. Van op een afstand ziet u dat niet, maar van dichtbij is het wazig, vooral bij banner 4. Heeft u het logo als vector (AI, EPS, SVG of PDF) en een grotere productfoto, stuur ze dan mee. Dan plaatsen wij die.
 
-**Afhaling** in onze winkel in Beringen: gratis.
-**Levering per koerier** (België, vr 13/11 vóór 12u00): + € [25,00] excl. btw (€ [30,25] incl. btw) voor de vijf samen.
+U krijgt van ons per banner een proef. Er wordt niets gedrukt zonder uw schriftelijk akkoord.
 
-Eventuele aanpassingen aan een bestand (bv. omzetten van het andere template naar ons formaat, cassettezone verlengen, kleuren omzetten naar CMYK) doen we voor € [45,00] excl. btw per ontwerp. We melden dat altijd vooraf; zonder uw akkoord passen we niets aan.
-
-### 3. Hoe bestellen – gewoon per mail
-
-Een bestellink is niet nodig. Een korte mail volstaat met:
-- het gekozen model (Eco, Standaard of Premium);
-- afhaling of levering (+ leveradres);
-- facturatiegegevens van SOPO BV (btw-nummer, adres, eventueel PO-nummer).
-
-U ontvangt dan meteen een orderbevestiging met factuur. Betalen kan via overschrijving op [IBAN P3PrintShop] met vermelding van het ordernummer, of via een betaallink (Bancontact/kaart) die we op vraag meesturen.
-
-### 4. Uiterste termijnen
-
-- **Goedgekeurde drukbestanden: maandag 9 november, 12u00.**
-- **Betaling: maandag 9 november, 12u00** – een betaalbewijs per mail volstaat.
-
-### 5. Aanleverspecificaties en bestandscontrole
-
-In bijlage vindt u ons template en de volledige specificaties. Kort:
-
-- **Formaat:** 1000 x 2150 mm op schaal 1:1 (zichtbaar 1000 x 2000 mm + 100 mm in de cassette onderaan + 50 mm in het klemprofiel bovenaan). Op schaal 1:10 (100 x 215 mm) mag ook.
-- **Veilige zone:** tekst, logo's en QR-codes minstens 30 mm van de zijkanten en volledig binnen het zichtbare vlak. Achtergrond doorlopen tot op de rand.
-- **Kleur:** CMYK (Coated FOGRA39). Huisstijlkleuren graag ook als Pantone/CMYK-waarde doorgeven.
-- **Resolutie:** minimaal 100 dpi op ware grootte (150 dpi aanbevolen); vectoren waar mogelijk.
-- **Bestand:** PDF/X-4 (of PDF/X-1a), fonts ingesloten of omgezet naar contouren, geen snijtekens.
-- **Aanleveren:** één PDF per ontwerp, genummerd (bv. `SVS_rollup_1.pdf` … `_5.pdf`), via WeTransfer of rechtstreeks per mail als ze samen kleiner zijn dan 20 MB.
-
-Omdat uw ontwerpen op een template van een andere leverancier gemaakt zijn, voeren we voor alle vijf een **gratis technische controle** uit op formaat, cassettezone, afloop, kleurmodus en beeldresolutie. U krijgt per ontwerp een proefweergave met de zichtbare zone ingetekend. Bij afwijkingen stellen we een concrete oplossing voor; niets gaat in productie zonder uw schriftelijke goedkeuring.
-
-Tip: stuur de vijf PDF's gerust al vandaag of dit weekend door, ook al zijn ze nog niet definitief. Dan kunnen wij de controle al uitvoeren en wint u een halve dag.
-
-Mogen we uw keuze en de bestanden zo snel mogelijk ontvangen? Bij vragen kunt u me ook altijd bellen op [telefoonnummer].
+Mogen we uw bevestiging, de facturatiegegevens en eventueel het logo als vector zo snel mogelijk ontvangen, het liefst vandaag of in het weekend?
 
 Met vriendelijke groeten,
 
 [Naam]
-P3PrintShop.be – een P3Media-bedrijf
-[telefoon] · [e-mail] · [adres Beringen]
-
-*Deze offerte is geldig tot maandag 9 november 2026, 12u00, gelet op de spoedtermijn.*
+P3PrintShop.be, drukwerk dat meedenkt
++32 485 14 51 88 · info@p3media.be · Wielewaalstraat 25, 3582 Beringen

@@ -3,30 +3,34 @@
 | | |
 |---|---|
 | Klant | Patrick Theunis – Smart Vent Systems / SOPO BV – patrick@smartventsystems.be |
-| Aanvraag | 5 complete roll-upbanners, elk een ander ontwerp, zichtbaar 100 x 200 cm, standaardcassette + draagtas |
-| Status | **Spoedofferteaanvraag, nog geen bestelling.** De klant vraagt vandaag (vr 6/11) een antwoord. |
-| Harde deadline | **vr 13 november 2026** in bezit (beurs) – bij voorkeur klaar **do 12 november** |
-| Afhaling | Klant kan zelf afhalen |
+| Product | 5 x roll-up banner **Basic** 100 x 200 cm (p3printshop.be), elk een ander ontwerp, met cassette en draagtas |
+| Prijs | € 317,95 drukwerk + € 44,00 spoedverzending = **€ 361,95 excl. btw / € 437,96 incl. btw** |
+| Levering | **dinsdag 10 november 2026** (spoed via print.com, onze kost € 39,63) |
+| Uiterste termijn | bestanden goedgekeurd + betaald: **ma 9 november, 11u00** |
+| Beurs | vr 13 november 2026 |
 
-> ⚠️ **Prijzen in dit dossier zijn een VOORSTEL.** Eerst de inkoopprijs en spoedtermijn bij onze
-> drukleverancier bevestigen (incl. 11 november) en daarna pas de mail versturen.
+## Waarom een pro-forma en geen winkelmand
+
+Getest in de live kassa op 6-11 (alleen gelezen, niets besteld): `/api/winkel/spoed/` geeft voor deze roll-up
+`rush: []`. De drukker biedt via de koppeling dus geen spoeddag aan. Daardoor kan de kassa alleen
+"Standaard, maandag 16 november, € 22,38" tonen. Voor een team-verzendkost per klant bestaat in de winkel
+(offerte-mand, voorstel) nog niets: de verzending komt altijd uit het prijsboek of van de drukker. Een
+eigen verzendbedrag vereist nieuwe code in het betaalpad van p3media-website. Daarom voorlopig de pro-forma.
 
 ## Bestanden
 
 | Bestand | Wat |
 |---|---|
-| [`01-antwoordmail-offerte.md`](01-antwoordmail-offerte.md) | Klaar-om-te-versturen antwoord aan Patrick met **3 modellen** (Eco / Standaard / Premium), prijs, timing, bestelprocedure |
-| [`02-aanleverspecificaties.md`](02-aanleverspecificaties.md) | Technische aanleverspecs + controlelijst voor de 5 PDF's (bijlage bij de mail) |
-| [`03-interne-planning.md`](03-interne-planning.md) | Retroplanning met 11 november, wat we bij de leverancier moeten nagaan, risico's |
-| [`aanlevertemplate-rollup-100x200.pdf`](aanlevertemplate-rollup-100x200.pdf) | Template op schaal 1:1 (1000 x 2150 mm) met cassette-, klem- en veilige zone (bijlage bij de mail) |
+| [`01-antwoordmail-offerte.md`](01-antwoordmail-offerte.md) | Mail aan Patrick, klaar om te versturen |
+| [`proforma-PF-2026-1106-SVS.pdf`](proforma-PF-2026-1106-SVS.pdf) | Pro-formafactuur € 437,96 (IBAN invullen) |
+| [`04-bestandscontrole.md`](04-bestandscontrole.md) | Technische controle van de 5 PDF's |
+| [`02-aanleverspecificaties.md`](02-aanleverspecificaties.md) | Algemene aanleverspecs roll-up (eerste versie) |
+| [`03-interne-planning.md`](03-interne-planning.md) | Retroplanning en risico's (prijsopbouw daarin is vervangen door bovenstaande) |
+| [`aanlevertemplate-rollup-100x200.pdf`](aanlevertemplate-rollup-100x200.pdf) | Algemeen template (niet het template van print.com) |
 
-## De drie modellen in één oogopslag
+## Bij print.com bestellen (ma 9/11, na betaling)
 
-| | Eco | **Standaard (gevraagd)** | Premium |
-|---|---|---|---|
-| Cassette | Lichte aluminium cassette, smalle voet | Aluminium standaardcassette, 2 uitklapvoetjes | Brede aluminium cassette, zwaardere voet, wissel-/klemsysteem |
-| Doek | Polyester banner, 440 g/m² | Anti-krul polyester/PET, grijze rug (geen doorschijn) | Premium blockout-film, mat, grijze rug |
-| Stabiliteit | Binnen, rustige stand | Beursvloer, normaal gebruik | Intensief beursgebruik, herbruikbaar met nieuw doek |
-| Draagtas | ✔ | ✔ gewatteerd | ✔ gewatteerd |
-| Voorstel prijs / st. excl. btw | € 79 | **€ 99** | € 169 |
-| Aanbeveling | Eénmalig event | **Beste prijs/kwaliteit voor deze beurs** | Als ze de systemen jaren willen hergebruiken |
+- Roll-up banner Basic 100 x 200, **aantal 5 met 5 verschillende ontwerpen** (nagaan of print.com 5 ontwerpen
+  in één orderregel toelaat; anders 5 orderregels van 1 stuk: dan is de inkoop hoger dan in de mand van 5 stuks).
+- Leverdag **dinsdag 10/11** kiezen (spoed € 39,63).
+- Bestanden: omgezet naar het template van print.com, in CMYK, met de proef goedgekeurd door Patrick.
